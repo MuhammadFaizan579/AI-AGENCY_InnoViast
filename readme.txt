@@ -195,7 +195,7 @@ During this project I practiced:
 
 Live Demo:
 
-> *(https://vercel.com/new/innoviast/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=ai-agency-inno-viast-1jv399415-innoviast.vercel.app&projectName=ai-agency-inno-viast&s=https%3A%2F%2Fgithub.com%2FMuhammadFaizan579%2FAI-AGENCY_InnoViast&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=Nd-CN09dBLYmxDij1lwrf&teamSlug=innoviast)*
+> *(https://ai-agency-inno-viast.vercel.app/)*
 
 
 
