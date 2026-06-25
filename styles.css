@@ -10,20 +10,20 @@
 }
 
 :root {
-  --bg-base:      #07070f;
-  --bg-dark:      #0e0e1c;
-  --bg-card:      #0e0e1c;
-  --bg-input:     #07070f;
-  --bg-secondary: #141426;
+  --bg-base:      #f5f4f0;
+  --bg-dark:      #ede9e3;
+  --bg-card:      #ede9e3;
+  --bg-input:     #f5f4f0;
+  --bg-secondary: #e6e1d9;
 
-  --text-primary: #eeeef8;
-  --text-muted:   #7a7a9a;
-  --text-soft:    #a0a0c0;
+  --text-primary: #111118;
+  --text-muted:   #6b6b7a;
+  --text-soft:    #4a4a5a;
 
-  --accent:       #00e5ff;
-  --accent-dim:   rgba(0, 229, 255, 0.15);
+  --accent:       #0057b8;
+  --accent-dim:   rgba(0, 87, 184, 0.12);
 
-  --border:       rgba(255, 255, 255, 0.08);
+  --border:       rgba(0, 0, 0, 0.1);
 
   --font-display: 'Barlow Condensed', sans-serif;
   --font-body:    'Inter', sans-serif;
@@ -109,7 +109,7 @@ img {
   gap: 0.5rem;
   padding: 0.875rem 2rem;
   background: var(--accent);
-  color: var(--bg-base);
+  color: #ffffff;
   font-family: var(--font-display);
   font-size: 0.9rem;
   font-weight: 700;
@@ -163,7 +163,7 @@ img {
 }
 
 #navbar.scrolled {
-  background: rgba(7, 7, 15, 0.95);
+  background: rgba(245, 244, 240, 0.95);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(12px);
 }
@@ -237,7 +237,7 @@ img {
   gap: 1.25rem;
   padding: 1.5rem 2.5rem 2rem;
   border-top: 1px solid var(--border);
-  background: rgba(7, 7, 15, 0.98);
+  background: rgba(245, 244, 240, 0.98);
 }
 
 .mobile-menu.open { display: flex; }
@@ -264,7 +264,7 @@ img {
   justify-content: flex-end;
   padding-bottom: 5rem;
   overflow: hidden;
-  background: linear-gradient(160deg, #07070f 0%, #0a0a1a 50%, #07070f 100%);
+  background: linear-gradient(160deg, #f5f4f0 0%, #eceae4 50%, #f5f4f0 100%);
 }
 
 .hero-grid {
@@ -272,8 +272,8 @@ img {
   inset: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(0, 229, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 229, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(0, 87, 184, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 87, 184, 0.05) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
@@ -285,7 +285,7 @@ img {
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(0, 229, 255, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(0, 87, 184, 0.09) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -296,7 +296,7 @@ img {
   background-image: url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&h=900&fit=crop&auto=format');
   background-size: cover;
   background-position: center;
-  opacity: 0.08;
+  opacity: 0.06;
 }
 
 .hero-content {
@@ -403,7 +403,7 @@ img {
 .image-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(0, 229, 255, 0.15) 0%, transparent 60%);
+  background: linear-gradient(135deg, rgba(0, 87, 184, 0.1) 0%, transparent 60%);
 }
 
 .corner-accent {
@@ -493,14 +493,14 @@ img {
   position: relative;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: #1a1a2e;
+  background: #ddd8d0;
 }
 
 .portfolio-img-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.7;
+  opacity: 0.75;
   mix-blend-mode: luminosity;
   transition: transform 0.7s ease;
 }
@@ -510,7 +510,7 @@ img {
 .portfolio-img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(7, 7, 15, 0.9) 0%, transparent 60%);
+  background: linear-gradient(to top, rgba(245, 244, 240, 0.9) 0%, transparent 60%);
 }
 
 .portfolio-info {
@@ -675,7 +675,7 @@ img {
 
 .form-success {
   border: 1px solid var(--accent);
-  background: rgba(0, 229, 255, 0.04);
+  background: rgba(0, 87, 184, 0.04);
   padding: 3rem 2.5rem;
   height: 100%;
   display: flex;
