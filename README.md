@@ -1,30 +1,31 @@
 # AI-AGENCY_InnoViast
-AI TECH AGENCY PROJECT 
+
 # 🚀 INNOVIAST – AI Technology Agency Website
 
-> A modern, fully responsive AI Technology Agency landing page built with HTML5, CSS3, and Vanilla JavaScript.
+> A modern, fully responsive AI Technology Agency landing page built with **HTML5, CSS3, Vanilla JavaScript, and GSAP** to deliver an engaging, accessible, and high-performance user experience.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project was developed as part of my **Frontend Experience Engineering Internship – Week 1 Assignment**.
+This project was developed as part of my **Frontend Experience Engineering Internship – Week 2 Assignment**.
 
-The objective was to design and develop a clean, responsive, and professional business website that demonstrates modern frontend development practices while delivering an excellent user experience across desktop, tablet, and mobile devices.
+The objective was to enhance the existing AI Technology Agency website by integrating professional motion design using **GSAP** and **ScrollTrigger**. The animations were designed to improve user engagement while maintaining accessibility, smooth performance, and a clean user experience.
 
-The website represents a fictional AI Technology Agency that offers Artificial Intelligence solutions for enterprises and businesses.
+The website represents a fictional AI Technology Agency that provides intelligent AI solutions for enterprises and businesses.
 
 ---
 
 # 🎯 Project Objectives
 
-- Build a fully responsive landing page
-- Practice semantic HTML5 structure
-- Create modern UI using CSS3
-- Implement responsive navigation
-- Improve user experience with smooth animations
-- Demonstrate clean frontend development practices
-- Build a recruiter-ready portfolio project
+* Enhance the website with professional motion design.
+* Implement GSAP entrance animations.
+* Add scroll-based reveal animations using ScrollTrigger.
+* Create animated statistics counters.
+* Improve navigation transitions.
+* Design meaningful hover micro-interactions.
+* Maintain accessibility using Reduced Motion support.
+* Optimize animation performance.
 
 ---
 
@@ -32,55 +33,60 @@ The website represents a fictional AI Technology Agency that offers Artificial I
 
 ## 🏠 Hero Section
 
-- Modern fullscreen hero
-- Eye-catching typography
-- Call-to-Action buttons
-- Animated statistics
-- Background visual effects
+* Fullscreen Hero Banner
+* Modern Typography
+* Call-to-Action Buttons
+* Animated Statistics Counters
+* GSAP Entrance Animation
+* Background Visual Effects
 
 ---
 
 ## 👨‍💻 About Section
 
-Introduces the agency with a professional company overview explaining its mission, expertise, and approach toward building trustworthy AI systems.
+A professional introduction to the agency with smooth scroll reveal animations that create an engaging reading experience.
 
 ---
 
 ## ⚙️ Services
 
-Displays six major AI services:
+Six professional AI service cards including:
 
-- AI Strategy Consulting
-- Custom Model Development
-- Predictive Analytics
-- Process Automation
-- AI Safety & Governance
-- Enterprise Integration
+* AI Strategy Consulting
+* Custom Model Development
+* Predictive Analytics
+* Process Automation
+* AI Safety & Governance
+* Enterprise Integration
 
-Each service is presented using modern interactive cards.
+Features:
+
+* GSAP Scroll Reveal
+* Hover Lift Animation
+* Interactive Card Effects
 
 ---
 
 ## 💼 Portfolio
 
-A professional showcase of completed AI projects including:
+Professional AI project showcase featuring:
 
-- Healthcare AI
-- FinTech Risk Engine
-- Logistics Intelligence
+* Healthcare AI
+* FinTech Risk Engine
+* Logistics Intelligence
 
 Each project includes:
 
-- Preview image
-- Project title
-- Industry category
-- Business impact
+* Project Preview
+* Industry Category
+* Business Impact
+* Hover Micro-interactions
 
 ---
 
 ## ⭐ Testimonials
 
-Customer feedback cards highlighting client satisfaction and successful project outcomes.
+Client testimonials displayed using animated cards with smooth reveal effects during scrolling.
 
 ---
 
@@ -88,118 +94,161 @@ Customer feedback cards highlighting client satisfaction and successful project 
 
 Includes:
 
-- Contact information
-- Professional inquiry form
-- Form validation
-- Success message after submission
+* Contact Information
+* Inquiry Form
+* Form Validation
+* Success Message
+* Smooth Section Animation
 
 ---
 
 ## 📱 Fully Responsive Design
 
-The website has been optimized for:
+Optimized for:
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
 
-Responsive layouts are implemented using CSS Media Queries.
+Built using responsive layouts and CSS Media Queries.
+
+---
+
+# 🎨 Motion Design Features
+
+* GSAP Entrance Animations
+* ScrollTrigger Reveal Animations
+* Animated Statistics Counters
+* Navigation Entrance Animation
+* Smooth Hover Micro-interactions
+* Performance Optimized Motion
+* Reduced Motion Accessibility Support
 
 ---
 
 # 🎨 UI/UX Highlights
 
-- Clean Dark Theme
-- Modern Typography
-- Neon Accent Colors
-- Grid Layout
-- Smooth Scrolling
-- Hover Effects
-- Scroll Animations
-- Interactive Navigation
-- Mobile Hamburger Menu
-- Minimal Design
-- Professional Business Layout
+* Modern Dark Theme
+* Clean Business Layout
+* Neon Accent Colors
+* Interactive Navigation
+* Responsive Grid Layout
+* Professional Typography
+* Smooth Scrolling
+* Responsive Mobile Menu
+* Animated Cards
+* Premium User Experience
 
 ---
 
 # 🛠 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Google Fonts
-- Responsive Design
-- CSS Flexbox
-- CSS Grid
-- Intersection Observer API
+* HTML5
+* CSS3
+* JavaScript (Vanilla)
+* GSAP
+* GSAP ScrollTrigger
+* CSS Grid
+* CSS Flexbox
+* Google Fonts
+* Responsive Design
 
 ---
 
 # 📂 Project Structure
 
-```
-INNOVIAST/
+```text
+INNOVIAST-InnoViast/
 │
 ├── index.html
 ├── styles.css
 ├── script.js
-└── README.md
+├── README.md
+└── assets/
 ```
 
 ---
 
 # 💡 JavaScript Functionalities
 
-- Sticky Navigation on Scroll
-- Mobile Hamburger Menu
-- Smooth Page Scrolling
-- Contact Form Validation
-- Success Message Display
-- Scroll Reveal Animation
-- Intersection Observer Animation
-- Responsive Navigation
+* Sticky Navigation
+* Mobile Hamburger Menu
+* Smooth Scrolling
+* Contact Form Validation
+* Success Message Display
+* GSAP Hero Animation
+* ScrollTrigger Section Reveal
+* Animated Statistics Counters
+* Navigation Animation
+* Responsive Navigation
+
+---
+
+# 🎬 Animation Plan
+
+| Animation         | Purpose                                                       |
+| ----------------- | ------------------------------------------------------------- |
+| Hero Entrance     | Creates a strong first impression when the page loads.        |
+| Navbar Animation  | Smoothly introduces the navigation without distracting users. |
+| Section Reveal    | Improves readability by revealing content as users scroll.    |
+| Animated Counters | Highlights key business statistics dynamically.               |
+| Hover Effects     | Provides visual feedback and improves interactivity.          |
+
+---
+
+# ♿ Accessibility
+
+This project respects users who prefer reduced motion by supporting the **prefers-reduced-motion** media query, ensuring animations remain accessible and comfortable for everyone.
 
 ---
 
 # 🎯 Learning Outcomes
 
-During this project I practiced:
+During this project I learned:
 
-- Semantic HTML
-- Responsive Web Design
-- CSS Grid
-- CSS Flexbox
-- JavaScript DOM Manipulation
-- Event Handling
-- Form Validation
-- UI/UX Design Principles
-- Mobile First Thinking
-- Frontend Project Structure
+* Professional GSAP Animation
+* ScrollTrigger Integration
+* Motion Design Principles
+* Responsive Web Design
+* JavaScript DOM Manipulation
+* UI/UX Enhancement
+* Animation Performance Optimization
+* Accessibility Best Practices
+* Frontend Project Organization
 
 ---
 
 # 🚀 Future Improvements
 
-- Backend Integration
-- Database Connectivity
-- Email Sending Functionality
-- Dark/Light Mode Toggle
-- CMS Integration
-- API Integration
-- Blog Section
-- Authentication System
+* Loading Screen Animation
+* Page Transition Effects
+* Dark / Light Theme Toggle
+* Backend Contact Form
+* CMS Integration
+* API Integration
+* Interactive Dashboard
+* Authentication System
 
 ---
 
-# 📸 Preview
+# 🌐 Live Demo
 
-Live Demo:
+**Website:**
 
-> *(https://ai-agency-inno-viast.vercel.app/)*
+https://ai-agency-inno-viast.vercel.app/
 
+---
 
+# 📸 Screenshots
+
+Add 3–5 screenshots here.
+
+* Home Page
+* Services Section
+* Portfolio Section
+* Contact Section
+* GSAP Animations
 
 ---
 
@@ -221,8 +270,6 @@ This project was created for educational and internship purposes.
 
 ---
 
-## ⭐ Acknowledgements
+# 🙏 Acknowledgements
 
-Special thanks to my internship mentors and the Frontend Experience Engineering program for providing the opportunity to build this project and strengthen my frontend development skills.
-
----
+Special thanks to the InnoViast mentorship team and the Frontend Experience Engineering Internship Program for providing the opportunity to strengthen my frontend development, UI/UX, and motion design skills through real-world projects.
