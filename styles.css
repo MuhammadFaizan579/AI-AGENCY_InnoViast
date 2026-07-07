@@ -870,3 +870,44 @@ img {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+.service-card,
+.portfolio-card,
+.testimonial-card{
+
+transition:.35s ease;
+
+}
+
+.service-card:hover,
+.portfolio-card:hover,
+.testimonial-card:hover{
+
+transform:translateY(-10px) scale(1.02);
+
+box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.btn-primary{
+
+transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+transform:scale(1.05);
+
+}
+
+.nav-links a{
+
+transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+color:var(--accent);
+
+}
