@@ -59,27 +59,106 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ── Intersection Observer — fade-in on scroll ────────────────
-const fadeEls = document.querySelectorAll(
-  '.service-card, .portfolio-card, .testimonial-card, .stat'
-);
+// ===============================
+// GSAP Animations
+// ===============================
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity    = '1';
-        entry.target.style.transform  = 'translateY(0)';
-        observer.unobserve(entry.target);
-      }
+gsap.registerPlugin(ScrollTrigger);
+
+// Respect reduced motion
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (!reduceMotion) {
+
+    // Navbar
+    gsap.from("#navbar", {
+        y: -80,
+        opacity: 0,
+        duration: 1,
+        ease: "power3.out"
     });
-  },
-  { threshold: 0.12 }
-);
 
-fadeEls.forEach((el, i) => {
-  el.style.opacity    = '0';
-  el.style.transform  = 'translateY(24px)';
-  el.style.transition = `opacity 0.6s ease ${i * 0.06}s, transform 0.6s ease ${i * 0.06}s`;
-  observer.observe(el);
+    // Hero Heading
+    gsap.from(".hero-headline", {
+        y: 70,
+        opacity: 0,
+        duration: 1,
+        ease: "power3.out"
+    });
+
+    // Hero Text
+    gsap.from(".hero-sub", {
+        y: 40,
+        opacity: 0,
+        duration: 1,
+        delay: .3
+    });
+
+    // Hero Buttons
+    gsap.from(".hero-ctas a", {
+        opacity: 0,
+        y: 30,
+        stagger: .15,
+        delay: .6,
+        duration: .8
+    });
+
+    // Stats
+    gsap.from(".stat", {
+        opacity: 0,
+        y: 40,
+        stagger: .15,
+        delay: .8
+    });
+
+    // Scroll Reveal
+    gsap.utils.toArray("section").forEach(section => {
+
+        gsap.from(section.children, {
+
+            opacity:0,
+            y:60,
+            duration:.8,
+            stagger:.15,
+
+            scrollTrigger:{
+                trigger:section,
+                start:"top 80%"
+            }
+
+        });
+
+    });
+
+}
+
+document.querySelectorAll(".stat-num").forEach(counter=>{
+
+const finalValue = counter.innerText;
+
+const number = parseInt(finalValue.replace(/[^0-9]/g,""));
+
+let obj={value:0};
+
+gsap.to(obj,{
+
+value:number,
+
+duration:2,
+
+ease:"power2.out",
+
+scrollTrigger:{
+trigger:counter,
+start:"top 85%"
+},
+
+onUpdate(){
+
+counter.innerText=finalValue.replace(number,obj.value.toFixed(0));
+
+}
+
+});
+
 });
