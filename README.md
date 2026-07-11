@@ -20,6 +20,8 @@ Introduce meaningful hover micro-interactions
 Add background motion layers (floating blobs, subtle noise)
 Maintain accessibility with prefers-reduced-motion support
 Keep the site 60 FPS smooth across all devices
+
+
 ✨ Features
 🏠 Hero Section
 Fullscreen hero banner with modern typography
@@ -28,9 +30,11 @@ Staggered CTA + stats entrance
 Mouse parallax on hero image
 Floating background glow / gradient blobs
 Animated statistics counters
+
 👨‍💻 About Section
 Text slides in from the left, image from the right
 Smooth ScrollTrigger reveal on entry
+
 ⚙️ Services
 Six professional AI service cards:
 
@@ -99,6 +103,7 @@ ScrollTrigger.refresh() on load
 Cleanup on beforeunload
 FOUC prevention using .js class gating
 Zero layout thrashing
+
 ♿ Accessibility
 Full prefers-reduced-motion support — when enabled, all decorative motion is disabled while functionality remains intact.
 
@@ -110,6 +115,8 @@ GSAP 3
 GSAP ScrollTrigger
 Google Fonts (Barlow Condensed)
 Responsive Design
+
+
 📂 Project Structure
 INNOVIAST-InnoViast/
 │
@@ -118,6 +125,7 @@ INNOVIAST-InnoViast/
 ├── script.js           # Modular GSAP animation system
 ├── README.md
 └── assets/
+
 💡 Core JavaScript Functionalities
 Sticky Navigation with scroll state
 Mobile Hamburger Menu + animated backdrop
@@ -130,6 +138,7 @@ Mouse Parallax
 3D Tilt Hover Effects
 Reduced Motion Guard
 🎨 UI/UX Highlights
+
 Modern Dark Theme with Neon Accents
 Clean, Business-Grade Layout
 Cinematic Motion Language
@@ -139,6 +148,7 @@ Premium Typography
 Buttery-smooth Scrolling
 Animated Cards & Micro-interactions
 Premium End-to-end User Experience
+
 🎯 Learning Outcomes
 Through this project I strengthened:
 
@@ -150,7 +160,9 @@ Accessibility best practices (prefers-reduced-motion)
 Modular JavaScript architecture
 Responsive Web Design
 UI/UX enhancement through motion
+
 🚀 Future Improvements
+
 Loading Screen Animation
 Page Transition Effects
 Dark / Light Theme Toggle
@@ -167,7 +179,7 @@ Portfolio Section
 Contact Section
 GSAP Animations in action
 👨‍💻 Author
-Faizan Shah Frontend Experience Engineering Intern Software Engineering Student Pakistan 🇵🇰
+Faizan Shah Frontend Experience Engineering Intern Computer Science Student Pakistan 🇵🇰
 
 📄 License
 This project was created for educational and internship purposes.
